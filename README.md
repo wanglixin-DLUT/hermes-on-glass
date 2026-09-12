@@ -70,6 +70,7 @@ dsh-nerv-bridge/tools/ # helper probes
 ## Documentation
 
 - `docs/USAGE.md` — 中文完整安装与使用方法
+- `docs/GLASSES-CHECKLIST.md` — 让项目真正出现在眼镜上的待办清单
 - `dsh-nerv-bridge/README.md` — plugin and protocol reference
 - `aiui-nerv-terminal/README.md` — HUD client setup
 - `openspec/changes/dsh-nerv-terminal/` — product/architecture change
