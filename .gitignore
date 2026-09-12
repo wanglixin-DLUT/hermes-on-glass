@@ -35,3 +35,10 @@ google-services.json
 
 # Agents 
 .claude/settings.local.json
+# Node / AIUI local development
+node_modules/
+dist/
+*.aix
+local/
+local.properties
+secrets.json

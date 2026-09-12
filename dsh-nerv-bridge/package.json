@@ -1,0 +1,26 @@
+{
+  "name": "dsh-nerv-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Rokid Glasses HUD bridge plugin for DeepSeek Harness",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./server": "./src/server.js",
+    "./dsh": "./src/dsh.js"
+  },
+  "scripts": {
+    "test": "node --test test/bridge.test.js",
+    "probe": "node tools/nerv-bridge-probe.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

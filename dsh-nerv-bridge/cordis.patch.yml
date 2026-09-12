@@ -1,0 +1,20 @@
+# dsh-nerv-bridge bundle layer.
+# Install with:
+#   dsh plugin --profile nerv add ./dsh-nerv-bridge
+# Then run:
+#   dsh --profile nerv
+#
+- insert:
+    - id: dsh-nerv-bridge
+      name: dsh-nerv-bridge
+      config:
+        host: 127.0.0.1
+        port: 3090
+        # CHANGE THIS before exposing the port through a tunnel.
+        sharedSecret: change-me
+        allowAnonymous: false
+        historyLimit: 50
+        approvalTimeoutSeconds: 120
+        heartbeatSeconds: 30
+        logFrames: false
+        workspaceAllowCreate: false

@@ -1,0 +1,13 @@
+{
+  "name": "aiui-nerv-terminal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NERV-style AIUI client for dsh-nerv-bridge",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@yodaos-pkg/ink-env": "^0.16.0",
+    "typescript": "^5.9.3"
+  }
+}

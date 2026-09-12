@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+types/
+tsconfig.json
+.git/
+.gitignore
+.DS_Store
+*.log
+local/
+assets/logo.local.*
