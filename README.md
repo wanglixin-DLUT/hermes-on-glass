@@ -73,6 +73,7 @@ dsh-nerv-bridge/tools/ # helper probes
 - `aiui-nerv-terminal/README.md` — HUD client setup
 - `openspec/changes/dsh-nerv-terminal/` — product/architecture change
 - `docs/dsh-vs-hermes.md` — adaptation notes
+- `docs/debugging.md` — step-by-step bridge and HUD debugging
 
 ## Status
 
