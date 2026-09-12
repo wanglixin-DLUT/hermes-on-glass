@@ -69,11 +69,16 @@ dsh-nerv-bridge/tools/ # helper probes
 
 ## Documentation
 
+- `docs/USAGE.md` — 中文完整安装与使用方法
 - `dsh-nerv-bridge/README.md` — plugin and protocol reference
 - `aiui-nerv-terminal/README.md` — HUD client setup
 - `openspec/changes/dsh-nerv-terminal/` — product/architecture change
 - `docs/dsh-vs-hermes.md` — adaptation notes
 - `docs/debugging.md` — step-by-step bridge and HUD debugging
+- `docs/PLAN.md` — original research plan
+- `docs/AIUI-MAC-SETUP.md` — macOS AIUI toolchain setup record
+- `LICENSE` — MIT for the new fork code
+- `NOTICE.md` — upstream licensing note
 
 ## Status
 
